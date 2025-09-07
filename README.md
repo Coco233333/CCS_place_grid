@@ -4,11 +4,11 @@ Content: This repository contains the code and analysis scripts for the manuscri
 
 ## 🗂️ Repository Overview
 
-A brief overview of the project structure:
-├── Beyesian_integration/ # Analysis and visualization for Figure 2
-├── Non_local_error/ # Analysis and visualization for Figure 4
-├── Storing_multiple_maps/ # Analysis and visualization for Figure 5 & 6
-├── environment.yml # Conda environment specification
+A brief overview of the project structure: \
+├── Beyesian_integration/ # Analysis and visualization for Figure 2 \
+├── Non_local_error/ # Analysis and visualization for Figure 4 \
+├── Storing_multiple_maps/ # Analysis and visualization for Figure 5 & 6 \
+├── environment.yml # Conda environment specification \
 └── README.md # This file
 
 ### Beyesian_integration
