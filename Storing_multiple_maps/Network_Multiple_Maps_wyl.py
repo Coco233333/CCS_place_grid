@@ -64,9 +64,7 @@ class Place_net(bp.DynamicalSystem):
         self.center_input = bm.Variable(bm.zeros(1))
 
     def get_input(self, map_index, loc, input_stre):
-        d = self.period_bound(loc - self.map[map_index, :]).reshape(
-            -1,
-        )
+        d = self.period_bound(loc - self.map[map_index, :]).reshape(-1,)
         input = input_stre * bm.exp(-0.25 * bm.square(d / self.a))
         return input
 
