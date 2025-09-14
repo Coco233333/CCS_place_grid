@@ -5,53 +5,44 @@ Content: This repository contains the code and analysis scripts for the manuscri
 ## 🗂️ Repository Overview
 
 A brief overview of the project structure: \
-├── Beyesian_integration/ # Analysis and visualization for Figure 3 \
+├── Beyesian_integration/ # Analysis and visualization for Figure 2 \
 ├── Non_local_error/ # Analysis and visualization for Figure 4 \
 ├── Storing_multiple_maps/ # Analysis and visualization for Figure 5 & 6 \
 ├── environment.yml # Conda environment specification \
 └── README.md # This file
 
 ### Beyesian_integration
-Figure 3a-b \
+Fig2a-b \
 Bayesian_integration/Bayesian_integration_distribution.ipynb \
-Figure 3c-e \
-Data: Bayesian_integration/Bayesian_integration.py \
-Visualization: Bayesian_integration/load_data.ipynb \
-Figure S3a  \
-Bayesian_integration/Correlated_noise.ipynb \
-Figure S3b  \
-Bayesian_integration/corr_bayesian_integration.ipynb \
-Figure S4  \
-Bayesian_integration/Parameter_sensitivity.ipynb 
-
+Fig2c-e \
+data: \
+Bayesian_integration/Bayesian_integration_notebook.ipynb\
+Bayesian_integration/data/distribution_results.npz (fig2c)\
+Bayesian_integration/data/results.npz (fig2d-e)\
+visualisation: \
+Bayesian_integration/load_data.ipynb
 
 ### Non_local_error
-Figure 4c: example distributions of decoding errors \
-Non_local_error/Net_decoding.ipynb \
-Figure 4d: one-step decoding performances across different noise levels \
-Non_local_error/MAP_vs_Net_noise.ipynb \
-Figure 4e: decoding performance over time of path integration \
-Non_local_error/MAP_vs_Net_time.ipynb \
-Figure S1d-e \
-Non_local_error/LSC_vs_PSC.ipynb \
-Figure S5 \
-Non_local_error/Comparison_Constrained_model.ipynb \
-
+Fig4c: example distributions of decoding errors \
+Non_local_error/Net_decoding.ipynb\
+Fig4d: one-step decoding performances across different noise levels \
+Non_local_error/MAP_vs_Net_noise.ipynb\
+Fig4e: decoding performance over time of path integration\
+Non_local_error/MAP_vs_Net_time.ipynb
 
 ### Storing_multiple_maps
-Figure 5a-b\
-Storing_multiple_maps/Place_cell_multiple_maps.ipynb\
-Figure 5c\
+Fig5a-b\
+Storing_multiple_maps/Place_cell_multiple_maps_wyl.ipynb\
+Fig5c\
 Storing_multiple_maps/test/coupled_net_plot.ipynb
 
 Parameters \
-Figure 6a; Figure S6 \
+Fig6a; FigS9\
 Storing_multiple_maps/test/coupled_net_plot.ipynb
 
 #### remapping
-Figure 6b-c; Figure S2 \
-Data: Storing_multiple_maps/Artificial_Remapping.ipynb \
-Visualization: Storing_multiple_maps/final_remapping 
+Fig6; FigS5 \
+Storing_multiple_maps/final_remapping 
 
 ## ⚙️ Installation & Setup
 To replicate the computational environment required to run this code:
